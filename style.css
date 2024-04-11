@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    background:url('https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:  100vh;
+    overflow: auto;
+    background-position: fixed;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    animation:hu 1s  ease-in-out infinite;
+}
+#add{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    font-size: 46px;
+    display: flex;
+    bottom: 0px;
+    right: 0px;
+    justify-content: center;
+    align-items: center;
+    border: 8px double black;
+    background:transparent;
+    transition: 0.3s ease-in-out;
+}
+#add:hover{
+    box-shadow: 0px 0px 10px 1px #00000075;
+    filter: invert(100%);
+}
+@keyframes hu{
+    from{filter: grayscale(0%);}
+    to{  filter: grayscale(100%);}
+}
